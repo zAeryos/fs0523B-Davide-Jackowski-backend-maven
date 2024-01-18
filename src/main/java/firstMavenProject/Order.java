@@ -11,13 +11,13 @@ public class Order {
     private Customer customer;
     private List<Product> products;
 
-    public Order(long id, Customer customer, String status, LocalDate orderDate, LocalDate deliveryDate){
+    public Order(long id, Customer customer, String status, LocalDate orderDate, LocalDate deliveryDate, List<Product> products){
         this.id = id;
         this.customer = customer;
         this.status = status;
         this.orderDate = orderDate;
         this.deliveryDate = deliveryDate;
-        this.products = new ArrayList<Product>();
+        this.products = products;
     }
 
     public long getId() {
@@ -71,6 +71,7 @@ public class Order {
     public void removeProduct(Product product){
         products.remove(product);
     }
+
 
     @Override
     public String toString() {
