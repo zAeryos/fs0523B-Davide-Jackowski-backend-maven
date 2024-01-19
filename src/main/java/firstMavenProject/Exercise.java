@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class Exercise {
 
@@ -29,8 +30,9 @@ public class Exercise {
 
         System.out.println(order1.toString());
 
-        // Map<Customer, List<Order>> customerOrder =
+        Map<Customer, List<Order>> customerOrder =  List.of(order1, order2, order3, order4).stream().collect(Collectors.groupingBy(Order::getCustomer));
 
+        System.out.println(customerOrder);
         // List<Product> mostExpensive = List.of(prod1, prod2, prod3).stream().
     }
 }
