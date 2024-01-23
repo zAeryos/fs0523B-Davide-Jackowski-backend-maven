@@ -1,7 +1,6 @@
 package mavenWeeklyProject;
 
-import java.time.LocalDate;
-import java.util.List;
+import java.io.File;
 import java.util.Scanner;
 
 public class ProjectMain {
@@ -9,6 +8,7 @@ public class ProjectMain {
 
         Scanner         scanner = new Scanner(System.in);
         LibraryCatalog  catalog = new LibraryCatalog();
+        String directoryPath = "src/main/java";
 
         Book book1 = new Book("Test", 2002, 161, "Author", "Genre");
         Book book2 = new Book("LOTR", 2000, 127, "AuthorLOTR", "Fantasy");
@@ -31,12 +31,6 @@ public class ProjectMain {
 
         System.out.println(catalog.searchByPublicationYear(2000));
         System.out.println(catalog.searchByAuthor("AuthorLOTR"));
-
-
-
-
-
-
     }
 
 

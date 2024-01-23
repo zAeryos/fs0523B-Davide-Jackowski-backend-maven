@@ -4,12 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa0c861d-9347-448b-9efb-a2e0f03aaffd" name="Changes" comment="Exercise">
+    <list default="true" id="fa0c861d-9347-448b-9efb-a2e0f03aaffd" name="Changes" comment="Project">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/00aa166bdf8fbd7f8275bfb6062f773e902275d9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/0440972d783e09b32b91075837965e3762214460" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/123a55209a7a466175c95fbb5d5c7822d86a1812" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ede5d48d2257742d24b81600cf7e77a1f105fcc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/d/3d12272d779d02bc2b9ab8826e13e13ac1145e60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3f5535caea23cd30ef3143796a8ca36bdc740da7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/d/4d330bc4d7c3f3ed4028e23a33f07030bb941d4f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e1e5900c6a8c204d3d462ff478a0b785ada231e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74c398d01bdca246d697aa994b7bf38bdb68b404" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/7/779f49a6c7190f0128f907f39e58de169910e555" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3715d3d542ddf207f4329e2c36b23e3823eeaee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e53308384cd6d0ca715219ec2553b960d32b48a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/0/00aa166bdf8fbd7f8275bfb6062f773e902275d9" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/4/0440972d783e09b32b91075837965e3762214460" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/2/123a55209a7a466175c95fbb5d5c7822d86a1812" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/e/1ede5d48d2257742d24b81600cf7e77a1f105fcc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/d/3d12272d779d02bc2b9ab8826e13e13ac1145e60" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/f/3f5535caea23cd30ef3143796a8ca36bdc740da7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/d/4d330bc4d7c3f3ed4028e23a33f07030bb941d4f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/e/5e1e5900c6a8c204d3d462ff478a0b785ada231e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/4/74c398d01bdca246d697aa994b7bf38bdb68b404" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/7/779f49a6c7190f0128f907f39e58de169910e555" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/3/c3715d3d542ddf207f4329e2c36b23e3823eeaee" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/5/e53308384cd6d0ca715219ec2553b960d32b48a4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/firstMavenProject/Exercise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstMavenProject/Exercise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mavenWeeklyProject/ProjectMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mavenWeeklyProject/ProjectMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/it/epicode/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +72,20 @@
     "Application.Exercise.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ProjectMain.executor": "Run",
+    "Application.UseEventManagementDAO.executor": "Run",
+    "Application.UsePersonDAO.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Work-Study/Epicode/fs0523B-back-end/Maven_projects",
     "onboarding.tips.debug.path": "D:/Work-Study/Epicode/fs0523B-back-end/Maven_projects/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -93,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705593603080</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Project">
+      <option name="closed" value="true" />
+      <created>1705680090692</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705680090692</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +154,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="Exercise" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise" />
+    <MESSAGE value="Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project" />
   </component>
 </project>

@@ -1,0 +1,20 @@
+
+e
+java:S1192"HDefine a constant instead of duplicating this literal "Pending" 3 times.(ïÑ“ù8Š¨«ëÑ1
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·ÑÄŸ8‹¨«ëÑ1
+W
+java:S1854":Remove this useless assignment to local variable "order5".(è˜¶8¨«ëÑ1
+S
+java:S1854"6Remove this useless assignment to local variable "c4".(¼¥–ß8¨«ëÑ1
+X
+java:S1854"6Remove this useless assignment to local variable "c3".(ûŠ‰øøÿÿÿÿ8¨«ëÑ1
+I
+java:S1481"'Remove this unused "c3" local variable.(ûŠ‰øøÿÿÿÿ8“¨«ëÑ1
+D
+java:S1481"'Remove this unused "c4" local variable.(¼¥–ß8“¨«ëÑ1
+H
+java:S1481"+Remove this unused "order5" local variable.(è˜¶8˜¨«ëÑ1
+U	java:S106"9Replace this use of System.out or System.err by a logger.(³ì€÷8˜¨«ëÑ1
+U	java:S106#"9Replace this use of System.out or System.err by a logger.(»à±8Æî«ëÑ1
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8çä¬ëÑ1
