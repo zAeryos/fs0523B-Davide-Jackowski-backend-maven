@@ -2,6 +2,7 @@ package it.epicode.w3.d3.entities;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.List;
 
 @Entity
 @Table(name = "eventmanagement")
@@ -21,24 +22,31 @@ public class Event {
     private EventType eventType;
     @Column(name = "max_participants")
     private int maxParticipants;
+    @ManyToOne
+    @JoinColumn(name = "location_fk")
+    private Location location;
+    @OneToMany(mappedBy = "event")
+    private List<Partecipation> partecipations;
 
-    public Event(String title, LocalDate eventDate, String description, EventType eventType, int maxParticipants) {
+    public Event(String title, LocalDate eventDate, String description, EventType eventType, int maxParticipants, Location location, List<Partecipation> partecipations) {
         this.title = title;
         this.eventDate = eventDate;
         this.description = description;
         this.eventType = eventType;
         this.maxParticipants = maxParticipants;
+        this.location = location;
+        this.partecipations = partecipations;
     }
 
     public Event() {
     }
 
-    public int getId() {
-        return id;
+    public List<Partecipation> getPartecipations() {
+        return partecipations;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public void setPartecipations(List<Partecipation> partecipations) {
+        this.partecipations = partecipations;
     }
 
     public String getTitle() {
@@ -79,6 +87,14 @@ public class Event {
 
     public void setMaxParticipants(int maxParticipants) {
         this.maxParticipants = maxParticipants;
+    }
+
+    public Location getLocation() {
+        return location;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
     }
 
     @Override
