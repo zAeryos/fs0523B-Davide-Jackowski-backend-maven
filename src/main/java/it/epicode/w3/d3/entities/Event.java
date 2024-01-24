@@ -5,7 +5,7 @@ import java.time.LocalDate;
 
 @Entity
 @Table(name = "eventmanagement")
-public class EventManagement {
+public class Event {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
@@ -22,7 +22,7 @@ public class EventManagement {
     @Column(name = "max_participants")
     private int maxParticipants;
 
-    public EventManagement(String title, LocalDate eventDate, String description, EventType eventType, int maxParticipants) {
+    public Event(String title, LocalDate eventDate, String description, EventType eventType, int maxParticipants) {
         this.title = title;
         this.eventDate = eventDate;
         this.description = description;
@@ -30,7 +30,7 @@ public class EventManagement {
         this.maxParticipants = maxParticipants;
     }
 
-    public EventManagement() {
+    public Event() {
     }
 
     public int getId() {

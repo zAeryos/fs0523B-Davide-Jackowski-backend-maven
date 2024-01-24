@@ -1,40 +1,40 @@
 package it.epicode.w3.d3.dao;
 
-import it.epicode.w3.d3.entities.EventManagement;
+import it.epicode.w3.d3.entities.Event;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
-public class EventManagementDAO {
+public class EventDAO {
     private EntityManagerFactory emf;
     private EntityManager em;
 
-    public EventManagementDAO(){
+    public EventDAO(){
         emf = Persistence.createEntityManagerFactory("eventmanagement");
         em  = emf.createEntityManager();
     }
-    public EventManagement createEvent(EventManagement eventManagement) {
+    public Event createEvent(Event event) {
         EntityTransaction et = em.getTransaction();
 
         et.begin();
-        em.persist(eventManagement);
+        em.persist(event);
         et.commit();
-        em.refresh(eventManagement);
+        em.refresh(event);
 
-        return eventManagement;
+        return event;
     }
 
-    public EventManagement getById(int id) {
-        return em.find(EventManagement.class, id);
+    public Event getById(int id) {
+        return em.find(Event.class, id);
     }
 
     public void deleteEvent(int id) {
         EntityTransaction et = em.getTransaction();
         et.begin();
-        EventManagement eventManagement = getById(id);
-        em.remove(eventManagement);
+        Event event = getById(id);
+        em.remove(event);
         et.commit();
     }
 
